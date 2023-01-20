@@ -1,0 +1,19 @@
+@use 'abstracts' as *;
+@use 'base' as *;
+
+
+
+.card-shadow {
+    box-shadow: 0px 12px 36px -6px #C0C3CA;
+}
+.object-fit-contain {
+    object-fit: contain;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
